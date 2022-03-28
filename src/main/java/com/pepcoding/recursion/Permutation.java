@@ -1,4 +1,4 @@
-package com.pepcoding;
+package com.pepcoding.recursion;
 
 public class Permutation {
     public static void main(String[] args) {
