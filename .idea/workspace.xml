@@ -44,7 +44,7 @@
       <command value="open fiverr-008-MBTA-1.1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BalancedParenthesis">
+  <component name="RunManager" selected="Application.DuplicateBracket">
     <configuration name="BalancedParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.BalancedParenthesis" />
       <module name="IntellijWorkspace" />
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.GetMax" />
+    <configuration name="DuplicateBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.DuplicateBracket" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.*" />
+          <option name="PATTERN" value="com.pepcoding.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.recursion.Power" />
+    <configuration name="ImplementationQueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ImplementationQueueUsingArray" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.recursion.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementationQueueUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ImplementationQueueUsingStack" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,19 +99,6 @@
     </configuration>
     <configuration name="ReverseElementUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.ReverseElementUsingStack" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.StackImplementation" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateBracket" />
+        <item itemvalue="Application.ImplementationQueueUsingStack" />
+        <item itemvalue="Application.ImplementationQueueUsingArray" />
         <item itemvalue="Application.BalancedParenthesis" />
         <item itemvalue="Application.ReverseElementUsingStack" />
-        <item itemvalue="Application.GetMax" />
-        <item itemvalue="Application.StackImplementation" />
-        <item itemvalue="Application.Power" />
       </list>
     </recent_temporary>
   </component>
