@@ -28,6 +28,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pepcoding/stack/DuplicateBracket.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="271ZrnbdgYb9YI9ZT1gVRC2qPEu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,41 +45,16 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open fiverr-008-MBTA-1.1" />
+      <command value="open fiver-chess-board" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateBracket">
-    <configuration name="BalancedParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.BalancedParenthesis" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StockSpan">
     <configuration name="DuplicateBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.DuplicateBracket" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pepcoding.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplementationQueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ImplementationQueueUsingArray" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseElementUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.ReverseElementUsingStack" />
+    <configuration name="NextGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.NextGreater" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.*" />
+          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterAlternate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.NextGreaterAlternate" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.StockSpan" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pepcoding.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockSpan" />
+        <item itemvalue="Application.NextGreaterAlternate" />
+        <item itemvalue="Application.NextGreater" />
         <item itemvalue="Application.DuplicateBracket" />
         <item itemvalue="Application.ImplementationQueueUsingStack" />
-        <item itemvalue="Application.ImplementationQueueUsingArray" />
-        <item itemvalue="Application.BalancedParenthesis" />
-        <item itemvalue="Application.ReverseElementUsingStack" />
       </list>
     </recent_temporary>
   </component>
