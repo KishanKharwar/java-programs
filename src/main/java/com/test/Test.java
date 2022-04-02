@@ -1,9 +1,34 @@
 package com.test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Formatter;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Test {
     public static void main(String[] args) {
-        int arr[] = {1,2,3};
-        findSubArray2(arr);
+
+        List<String>  lits = Arrays.asList("Kishan","Mohit","Mansi","Kishan");
+        List<String> ans = lits.stream().distinct().collect(Collectors.toList());
+        System.out.println(ans);
+
+        //int[] arr = {1,2,3,4,5,6,7,8};
+       // System.out.println(Arrays.toString(arr));
+
+//       String name = "Mike";
+//        int id = 1;
+//        Double elo = 2400.00;
+
+//        Formatter f = new Formatter();
+//        System.out.println(f.format("%-10s",name));
+        //System.out.printf("%20s",name);
+        //System.out.printf("%5d",id);
+        //System.out.printf("%10.2f",elo);
+
+
+        //int arr[] = {1,2,3};
+        //findSubArray2(arr);
     }
 
     private static void findSubArray2(int[] arr){

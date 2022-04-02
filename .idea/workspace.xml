@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,6 +30,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/test/interview/SwapArray.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pepcoding/stack/DuplicateBracket.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="271ZrnbdgYb9YI9ZT1gVRC2qPEu" />
@@ -39,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OpenProjectWorkspace/YuHarryPA0 v2/Project2/email-generation-system" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
@@ -48,13 +50,13 @@
       <command value="open fiver-chess-board" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StockSpan">
-    <configuration name="DuplicateBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.DuplicateBracket" />
+  <component name="RunManager" selected="Application.FirstSmaller">
+    <configuration name="FirstSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.FirstSmaller" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="PATTERN" value="com.ds.ashokit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementationQueueUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ImplementationQueueUsingStack" />
+    <configuration name="IntTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.IntTest" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.NextGreater" />
+    <configuration name="ReverseElementUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.ReverseElementUsingStack" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="PATTERN" value="com.ds.ashokit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterAlternate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.NextGreaterAlternate" />
+    <configuration name="SwapArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.interview.SwapArray" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="PATTERN" value="com.test.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.stack.StockSpan" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.stack.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StockSpan" />
-        <item itemvalue="Application.NextGreaterAlternate" />
-        <item itemvalue="Application.NextGreater" />
-        <item itemvalue="Application.DuplicateBracket" />
-        <item itemvalue="Application.ImplementationQueueUsingStack" />
+        <item itemvalue="Application.FirstSmaller" />
+        <item itemvalue="Application.SwapArray" />
+        <item itemvalue="Application.IntTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ReverseElementUsingStack" />
       </list>
     </recent_temporary>
   </component>
