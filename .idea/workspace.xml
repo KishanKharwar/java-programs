@@ -30,8 +30,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/test/interview/SwapArray.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pepcoding/stack/DuplicateBracket.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/test/interview/SwapArray.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="271ZrnbdgYb9YI9ZT1gVRC2qPEu" />
   <component name="ProjectViewState">
@@ -41,16 +41,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OpenProjectWorkspace/YuHarryPA0 v2/Project2/email-generation-system" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OpenProjectWorkspace/Projects/Shopping Application/order-management-system" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open fiverr-008-MBTA-1.1" />
       <command value="open fiver-chess-board" />
+      <command value="open task-management-service" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstSmaller">
+  <component name="RunManager" selected="Application.SlidingWindow">
+    <configuration name="AreaOfHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.AreaOfHistogram" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.ashokit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.FirstSmaller" />
       <module name="IntellijWorkspace" />
@@ -64,21 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.IntTest" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseElementUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.ReverseElementUsingStack" />
+    <configuration name="SlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.SlidingWindow" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindow" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.AreaOfHistogram" />
         <item itemvalue="Application.FirstSmaller" />
         <item itemvalue="Application.SwapArray" />
-        <item itemvalue="Application.IntTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ReverseElementUsingStack" />
       </list>
     </recent_temporary>
   </component>
