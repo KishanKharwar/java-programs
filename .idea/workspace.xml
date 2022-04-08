@@ -51,7 +51,7 @@
       <command value="open task-management-service" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SlidingWindow">
+  <component name="RunManager" selected="Application.AreaOfHistogram">
     <configuration name="AreaOfHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.AreaOfHistogram" />
       <module name="IntellijWorkspace" />
@@ -142,9 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AreaOfHistogram" />
         <item itemvalue="Application.SlidingWindow" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.AreaOfHistogram" />
         <item itemvalue="Application.FirstSmaller" />
         <item itemvalue="Application.SwapArray" />
       </list>
@@ -160,5 +160,16 @@
       <updated>1648489756305</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/AreaOfHistogram.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

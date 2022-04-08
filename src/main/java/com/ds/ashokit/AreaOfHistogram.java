@@ -20,12 +20,8 @@ public class AreaOfHistogram {
       while(k<arr.length && arr[k]>=arr[i]){
         k++;
       }
+      int len = k-j-1;
 
-      if(j == -1)
-        j = 0;
-      if(k == arr.length)
-        k = arr.length-1;
-      int len = k-j + 1;
       max = Math.max(max,len*arr[i]);
     }
 
