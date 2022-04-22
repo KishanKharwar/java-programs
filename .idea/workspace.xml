@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/spring-angular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/soap-client" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
@@ -50,15 +50,16 @@
       <command value="open fiver-chess-board" />
       <command value="open task-management-service" />
       <command value="open spring-angular" />
+      <command value="open soap-client" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.sorting.Mergesort" />
+  <component name="RunManager" selected="Application.BinarySearchUsingRecursion">
+    <configuration name="APSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.APSeries" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.sorting.*" />
+          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.PowerOf2" />
+    <configuration name="BinarySearchUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.BinarySearchUsingRecursion" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.ReverseArrayUsingRecursion" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Main" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.sorting.SelectionSort" />
+    <configuration name="SlidingWindowUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.SlidingWindowUsingQueue" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.sorting.*" />
+          <option name="PATTERN" value="com.ds.ashokit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalSwapsInBinarySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.TotalSwapsInBinarySort" />
+    <configuration name="TestMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.TestMergeSort" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.ds.ashokit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.Mergesort" />
-        <item itemvalue="Application.TotalSwapsInBinarySort" />
-        <item itemvalue="Application.PowerOf2" />
-        <item itemvalue="Application.ReverseArrayUsingRecursion" />
+        <item itemvalue="Application.BinarySearchUsingRecursion" />
+        <item itemvalue="Application.APSeries" />
+        <item itemvalue="Application.SlidingWindowUsingQueue" />
+        <item itemvalue="Application.TestMergeSort" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
