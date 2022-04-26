@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/soap-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/spring-angular" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
@@ -53,7 +53,7 @@
       <command value="open soap-client" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchUsingRecursion">
+  <component name="RunManager" selected="Application.TowerOfHanoi">
     <configuration name="APSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.APSeries" />
       <module name="IntellijWorkspace" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Main" />
+    <configuration name="RemoveAllAdjacentDuplicatesInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.RemoveAllAdjacentDuplicatesInString" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.TestMergeSort" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.TowerOfHanoi" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.*" />
+          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.RemoveAllAdjacentDuplicatesInString" />
         <item itemvalue="Application.BinarySearchUsingRecursion" />
         <item itemvalue="Application.APSeries" />
         <item itemvalue="Application.SlidingWindowUsingQueue" />
-        <item itemvalue="Application.TestMergeSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
