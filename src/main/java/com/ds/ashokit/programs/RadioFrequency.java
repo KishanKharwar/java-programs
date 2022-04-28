@@ -1,4 +1,4 @@
-package com.ds.ashokit;
+package com.ds.ashokit.programs;
 
 /**
  * k=1

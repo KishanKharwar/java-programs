@@ -1,4 +1,4 @@
-package com.ds.ashokit;
+package com.ds.ashokit.programs;
 
 import java.util.Arrays;
 import java.util.Stack;

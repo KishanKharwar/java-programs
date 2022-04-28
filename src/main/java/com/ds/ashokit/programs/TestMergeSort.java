@@ -1,4 +1,4 @@
-package com.ds.ashokit;
+package com.ds.ashokit.programs;
 
 public class TestMergeSort {
   public static void main(String[] args) {
