@@ -4,7 +4,7 @@ public class FindSubset {
 
   public static void main(String[] args) {
     int[] arr = {3,-4,8,10};
-    int sum = 9;
+    int sum = 7;
     int len = arr.length;
     int index = 0,tempSum = 0;
     boolean result = checkSubsets(arr,len,sum,tempSum,index);
