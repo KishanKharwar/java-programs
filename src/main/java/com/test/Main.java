@@ -7,11 +7,13 @@ public class Main {
     System.out.println(h.speedLimit);
   }
 
-  static class Bike{
+  static class Bike {
+
     int speedLimit = 150;
   }
 
-  static class Honda extends Bike{
+  static class Honda extends Bike {
+
     int speedLimit = 90;
 
   }

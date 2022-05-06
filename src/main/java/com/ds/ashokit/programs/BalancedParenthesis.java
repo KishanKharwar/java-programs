@@ -22,25 +22,25 @@ public class BalancedParenthesis {
       if (s1.charAt(i) == '{' || s1.charAt(i) == '[' || s1.charAt(i) == '(') {
         stack.push(s1.charAt(i));
       } else if (s1.charAt(i) == ')') {
-          if(!stack.isEmpty() && (char)stack.peek() == '('){
-            stack.pop();
-          }else{
-            return false;
-          }
-      }else if(s1.charAt(i) == '}'){
-        if(!stack.isEmpty() && (char) stack.peek() == '{'){
+        if (!stack.isEmpty() && (char) stack.peek() == '(') {
           stack.pop();
-        }else{
+        } else {
           return false;
         }
-      }else if (s1.charAt(i) == ']'){
-        if(!stack.isEmpty() && (char) stack.peek() == '['){
+      } else if (s1.charAt(i) == '}') {
+        if (!stack.isEmpty() && (char) stack.peek() == '{') {
           stack.pop();
-        }else{
+        } else {
+          return false;
+        }
+      } else if (s1.charAt(i) == ']') {
+        if (!stack.isEmpty() && (char) stack.peek() == '[') {
+          stack.pop();
+        } else {
           return false;
         }
       }
     }
-    return  stack.isEmpty();
+    return stack.isEmpty();
   }
 }

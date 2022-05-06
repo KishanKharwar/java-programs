@@ -14,18 +14,18 @@ public class BalancedParenthesisUsingRecursion {
   }
 
   private static void printParenthesis(int n, char[] ch, int index, int open, int close) {
-    if(index == ch.length){
+    if (index == ch.length) {
       System.out.println(Arrays.toString(ch));
     }
 
-    if(open<n){
+    if (open < n) {
       ch[index] = '(';
-      printParenthesis(n,ch,index + 1, open + 1, close);
+      printParenthesis(n, ch, index + 1, open + 1, close);
     }
 
-    if(close < open){
+    if (close < open) {
       ch[index] = ')';
-      printParenthesis(n,ch,index+1,open,close+1);
+      printParenthesis(n, ch, index + 1, open, close + 1);
     }
   }
 

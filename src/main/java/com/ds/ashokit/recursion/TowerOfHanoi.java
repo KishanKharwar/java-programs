@@ -7,17 +7,17 @@ public class TowerOfHanoi {
     char srcT = 'A';
     char helpingT = 'B';
     char destT = 'C';
-    towerOfHanoi(noOfDisks,srcT,destT,helpingT);
+    towerOfHanoi(noOfDisks, srcT, destT, helpingT);
   }
 
   private static void towerOfHanoi(int noOfDisks, char srcT, char destT, char helpingT) {
-    if(noOfDisks == 0){
+    if (noOfDisks == 0) {
       return;
     }
 
-    towerOfHanoi(noOfDisks -1, srcT,helpingT,destT);
-    System.out.println("Moved " + noOfDisks + " : [" + srcT+ " -> " +destT+ "]");
-    towerOfHanoi(noOfDisks-1,helpingT,destT,srcT);
+    towerOfHanoi(noOfDisks - 1, srcT, helpingT, destT);
+    System.out.println("Moved " + noOfDisks + " : [" + srcT + " -> " + destT + "]");
+    towerOfHanoi(noOfDisks - 1, helpingT, destT, srcT);
 
   }
 }

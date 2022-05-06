@@ -19,7 +19,7 @@ public class MagicSquare {
     int[] arr = new int[9];
     boolean[] taken = new boolean[10];
     int index = 0;
-    permutations(mArray,arr,taken,index,n);
+    permutations(mArray, arr, taken, index, n);
 
     // int[] finalArray = {8, 4, 3, 6, 2, 7, 1, 9, 5};
     // int cost = findCost(mArray,finalArray);
@@ -32,13 +32,13 @@ public class MagicSquare {
     int min = Integer.MAX_VALUE;
     if (index == 9) {
       if (magicSquare(arr)) {
-        int tempMin = findCost(mainArray,arr);
-        if(min>tempMin){
+        int tempMin = findCost(mainArray, arr);
+        if (min > tempMin) {
           min = tempMin;
         }
         System.out.println("Min Cost : " + min);
         System.out.println(Arrays.toString(arr));
-        return ;
+        return;
       }
     }
 
@@ -55,7 +55,7 @@ public class MagicSquare {
 
   private static int findCost(int[] mainArray, int[] arr) {
     int sum = 0;
-    for(int i = 0;i<arr.length;i++){
+    for (int i = 0; i < arr.length; i++) {
       sum += Math.abs(mainArray[i] - arr[i]);
     }
     return sum;

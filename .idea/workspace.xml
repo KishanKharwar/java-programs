@@ -53,7 +53,7 @@
       <command value="open spring-angular" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pattern15">
+  <component name="RunManager" selected="Application.DoublyCircularLinkedList">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -77,12 +77,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="FindStringInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.FindStringInArray" />
+    <configuration name="AddNElementsToDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.AddNElementsToDoublyLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.printing.Pattern13" />
+    <configuration name="AddNElementsToSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.AddNElementsToSinglyLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.printing.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.printing.Pattern14" />
+    <configuration name="DoublyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.DoublyCircularLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.printing.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.printing.Pattern15" />
+    <configuration name="InsertIntoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.InsertIntoLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.printing.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.Test" />
+    <configuration name="SinglyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.SinglyCircularLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.bikram.test.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pattern15" />
-        <item itemvalue="Application.Pattern14" />
-        <item itemvalue="Application.FindStringInArray" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Pattern13" />
+        <item itemvalue="Application.DoublyCircularLinkedList" />
+        <item itemvalue="Application.SinglyCircularLinkedList" />
+        <item itemvalue="Application.AddNElementsToDoublyLinkedList" />
+        <item itemvalue="Application.AddNElementsToSinglyLinkedList" />
+        <item itemvalue="Application.InsertIntoLinkedList" />
       </list>
     </recent_temporary>
   </component>

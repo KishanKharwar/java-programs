@@ -1,19 +1,18 @@
 package com.test.interview;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Test {
 
   public static void main(String[] args) {
 
-    Map<String,Integer> map = new HashMap<>();
-    map.put("John",2);
-    map.put("don",4);
-    map.put("ran",26);
+    Map<String, Integer> map = new HashMap<>();
+    map.put("John", 2);
+    map.put("don", 4);
+    map.put("ran", 26);
 
-    map.forEach((name,clientid) -> System.out.println(name + " is " + clientid));
+    map.forEach((name, clientid) -> System.out.println(name + " is " + clientid));
 
 //    Student s = new Student();
 //    Student s1 = new Student();
@@ -28,8 +27,9 @@ public class Test {
 }
 
 class Student {
-  public void mark(Student s1){
-    System.out.println(this==s1);
+
+  public void mark(Student s1) {
+    System.out.println(this == s1);
   }
 }
 //

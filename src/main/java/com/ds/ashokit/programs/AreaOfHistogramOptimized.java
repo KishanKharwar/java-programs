@@ -30,9 +30,9 @@ public class AreaOfHistogramOptimized {
 
     int[] rb = new int[arr.length];
     Stack<Integer> stRb = new Stack<>();
-    stRb.push(arr.length-1);
-    rb[arr.length-1] = arr.length-1;
-    for (int i = arr.length-2; i >= 0; i--) {
+    stRb.push(arr.length - 1);
+    rb[arr.length - 1] = arr.length - 1;
+    for (int i = arr.length - 2; i >= 0; i--) {
       while (!stLb.isEmpty() && arr[i] < arr[stLb.peek()]) {
         stRb.pop();
       }

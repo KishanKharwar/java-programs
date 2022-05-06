@@ -1,15 +1,16 @@
 package com.array;
 
 public class MaxMinArray {
-    public static void main(String[] args) {
-        int arr[] = {-2, -19, 8, 15, 4};
 
-        findMaxAndMin(arr);
-    }
+  public static void main(String[] args) {
+    int arr[] = {-2, -19, 8, 15, 4};
 
-    private static void findMaxAndMin(int[] arr) {
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
+    findMaxAndMin(arr);
+  }
+
+  private static void findMaxAndMin(int[] arr) {
+    int max = Integer.MIN_VALUE;
+    int min = Integer.MAX_VALUE;
 
         /*for(int i=0;i<arr.length;i++){
             if(arr[i] > max){
@@ -19,17 +20,16 @@ public class MaxMinArray {
             }
         }*/
 
-
-        for(Integer i : arr){
-            if(i>max){
-                max = i;
-            }else if(i<min){
-                min = i;
-            }
-        }
-
-        System.out.println(min + " " + max);
+    for (Integer i : arr) {
+      if (i > max) {
+        max = i;
+      } else if (i < min) {
+        min = i;
+      }
     }
+
+    System.out.println(min + " " + max);
+  }
 
 
 }

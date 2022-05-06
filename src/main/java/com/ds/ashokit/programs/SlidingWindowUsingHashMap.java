@@ -13,20 +13,18 @@ public class SlidingWindowUsingHashMap {
   }
 
   private static void getMaxInWindow(int[] arr, int k) {
-    Map<Integer,Integer> map = new HashMap<>();
+    Map<Integer, Integer> map = new HashMap<>();
 
-    for(int i=0;i<k;i++){
-      map.put(arr[i],map.getOrDefault(arr[i],0)+1);
+    for (int i = 0; i < k; i++) {
+      map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
     }
 
-
     for (int i = k; i < arr.length - k + 1; i++) {
-      int removableIndex = i-k;
+      int removableIndex = i - k;
 
-      if(map.containsKey(arr[i])){
+      if (map.containsKey(arr[i])) {
         //map.put()
       }
-
 
 //      for (int j = i; j < i + k; j++) {
 //        if (max < arr[j]) {

@@ -26,7 +26,7 @@ public class Pattern14 {
     int k = 0;
     for (int i = 1; i <= n + count; i++) {
       k = (i <= n) ? ++k : --k;
-      for (int j = 1; j <= (2*n -1); j++) {
+      for (int j = 1; j <= (2 * n - 1); j++) {
         if (j <= k) {
           System.out.print("*");
         }

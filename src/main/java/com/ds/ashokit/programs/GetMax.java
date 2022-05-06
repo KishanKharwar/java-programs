@@ -12,26 +12,26 @@ public class GetMax {
     int n = sc.nextInt(); //operation
     Stack s1 = new Stack();
     Stack maxStack = new Stack();
-    while(n!=-1){
+    while (n != -1) {
       n = sc.nextInt();
 
-      if(n == 1){
+      if (n == 1) {
         //push
         int num = sc.nextInt();
         s1.push(num);
-        if(s1.size() == 1){
+        if (s1.size() == 1) {
           maxStack.push(num);
-        }else if(num > (int) maxStack.peek()){
+        } else if (num > (int) maxStack.peek()) {
           maxStack.push(num);
-        }else {
+        } else {
           maxStack.push(maxStack.peek());
         }
-      }else if(n == 2 && !s1.isEmpty()){
+      } else if (n == 2 && !s1.isEmpty()) {
         s1.pop();
         maxStack.pop();
-      }else if (n == 3 && !s1.isEmpty()){
+      } else if (n == 3 && !s1.isEmpty()) {
         System.out.println(maxStack.peek());
-      }else {
+      } else {
         break;
       }
     }

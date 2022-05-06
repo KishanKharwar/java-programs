@@ -1,8 +1,9 @@
 package com.test.bikram.test;
 
 public class Rectangle {
-   private int length;
-   private int breadth;
+
+  private int length;
+  private int breadth;
 
   public int getLength() {
     return length;
@@ -21,7 +22,7 @@ public class Rectangle {
   }
 
 
-  public int area(){
+  public int area() {
     return length * breadth;
   }
 

@@ -7,15 +7,15 @@ public class APSeries {
     int n = 18;
     int a = 10;
     int d = 5;
-    int sum = sumOfAPSeries(a,n,d);
+    int sum = sumOfAPSeries(a, n, d);
     System.out.println(sum);
   }
 
   private static int sumOfAPSeries(int a, int n, int d) {
-    if(n == 0 || n == 1){
+    if (n == 0 || n == 1) {
       return a;
     }
-    int sum = (a + (n-1)*d) + sumOfAPSeries(a,n-1,d);
-    return  sum ;
+    int sum = (a + (n - 1) * d) + sumOfAPSeries(a, n - 1, d);
+    return sum;
   }
 }

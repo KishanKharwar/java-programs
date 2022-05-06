@@ -1,5 +1,5 @@
 package com.test.interview;
 
-public class hack3 extends hack2{
+public class hack3 extends hack2 {
 
 }

@@ -1,6 +1,7 @@
 package com.ds.ashokit.programs;
 
 public class StackImplementation {
+
   public static void main(String[] args) {
     Stack s = new Stack();
     Stack maxVal = new Stack();
@@ -17,7 +18,8 @@ public class StackImplementation {
 
   }
 
-   static class Stack{
+  static class Stack {
+
     int top;
     int[] arr;
 
@@ -26,23 +28,23 @@ public class StackImplementation {
       arr = new int[10];
     }
 
-    public  void push(int data){
-      if(top<arr.length){
+    public void push(int data) {
+      if (top < arr.length) {
         arr[++top] = data;
         return;
       }
     }
 
-    public  void pop(){
+    public void pop() {
       top--;
     }
 
-    public  int size(){
-      return top+1;
+    public int size() {
+      return top + 1;
     }
 
-    public void getData(){
-      for(int i=0;i<=top;i++){
+    public void getData() {
+      for (int i = 0; i <= top; i++) {
         System.out.print(arr[i] + " ");
       }
       System.out.println();

@@ -10,9 +10,11 @@ public class IntTest {
 
 
 class Bike {
+
   int speed = 90;
 }
 
-class Chile extends  Bike {
+class Chile extends Bike {
+
   int speed = 150;
 }
