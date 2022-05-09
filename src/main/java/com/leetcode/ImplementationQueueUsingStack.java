@@ -25,18 +25,18 @@ public class ImplementationQueueUsingStack {
     }
 
     public void push(int x) {
-        if (value.isEmpty()){
-          value.push(x);
-        }else {
-          while(!value.isEmpty()){
-            temp.push(value.pop());
-          }
-
-          value.push(x);
-          while (!temp.isEmpty()){
-            value.push(temp.pop());
-          }
+      if (value.isEmpty()) {
+        value.push(x);
+      } else {
+        while (!value.isEmpty()) {
+          temp.push(value.pop());
         }
+
+        value.push(x);
+        while (!temp.isEmpty()) {
+          value.push(temp.pop());
+        }
+      }
     }
 
     public int pop() {

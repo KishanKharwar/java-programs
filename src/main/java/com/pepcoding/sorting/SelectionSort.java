@@ -1,6 +1,7 @@
 package com.pepcoding.sorting;
 
 import java.util.Arrays;
+
 // in selection sort smaller element will be pushed at the starting index on every iteration
 public class SelectionSort {
 
@@ -11,20 +12,20 @@ public class SelectionSort {
   }
 
   private static void selectionSort(int[] arr) {
-    for(int i = 0;i<arr.length-1;i++){
+    for (int i = 0; i < arr.length - 1; i++) {
       int min = i;
 
-      for(int j = i+1;j< arr.length;j++){
+      for (int j = i + 1; j < arr.length; j++) {
         int data = arr[j];
-        if(arr[i]>arr[j] && arr[min]>data ){
+        if (arr[i] > arr[j] && arr[min] > data) {
           min = j;
         }
       }
-      swap(arr,min,i);
+      swap(arr, min, i);
     }
   }
 
-  private static int[] swap(int[] arr,int i,int j){
+  private static int[] swap(int[] arr, int i, int j) {
     int temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;

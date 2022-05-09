@@ -31,9 +31,9 @@ public class RemoveAllAdjacentDuplicatesInString {
     }
   }
 
-  public static String remove(Stack st){
+  public static String remove(Stack st) {
     StringBuilder s = new StringBuilder();
-    while(!st.isEmpty()){
+    while (!st.isEmpty()) {
       s.append(st.pop());
     }
     return s.reverse().toString();

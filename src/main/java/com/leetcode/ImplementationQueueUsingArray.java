@@ -13,9 +13,11 @@ public class ImplementationQueueUsingArray {
   }
 
   static class MyQueue {
+
     int[] arr;
     int front;
     int rear;
+
     public MyQueue() {
       arr = new int[10];
       front = -1;
@@ -24,7 +26,7 @@ public class ImplementationQueueUsingArray {
 
     public void push(int x) {
       arr[++rear] = x;
-      if(rear == 0){
+      if (rear == 0) {
         front++;
       }
     }
@@ -41,7 +43,7 @@ public class ImplementationQueueUsingArray {
     }
 
     public boolean empty() {
-      if((front>rear) || (front == -1 && rear == -1)){
+      if ((front > rear) || (front == -1 && rear == -1)) {
         return true;
       }
       return false;

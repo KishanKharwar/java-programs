@@ -6,7 +6,7 @@ public class Mergesort {
 
   public static void main(String[] args) {
     int[] arr = {7, 2, 5, 9, 8, 3, 1, 4};
-    int[] mergedArray = mergeSort(arr, 0, arr.length-1);
+    int[] mergedArray = mergeSort(arr, 0, arr.length - 1);
     System.out.println(Arrays.toString(mergedArray));
   }
 
@@ -30,25 +30,25 @@ public class Mergesort {
     int i = 0;
     int j = 0;
     int k = 0;
-    while(i<lsh.length && j < rsh.length){
-      if(lsh[i] > rsh[j]){
+    while (i < lsh.length && j < rsh.length) {
+      if (lsh[i] > rsh[j]) {
         arr[k] = rsh[j];
         k++;
         j++;
-      }else {
+      } else {
         arr[k] = lsh[i];
         k++;
         i++;
       }
     }
 
-    while(i<lsh.length){
+    while (i < lsh.length) {
       arr[k] = lsh[i];
       k++;
       i++;
     }
 
-    while(j<rsh.length){
+    while (j < rsh.length) {
       arr[k] = rsh[j];
       k++;
       j++;

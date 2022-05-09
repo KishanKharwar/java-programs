@@ -1,7 +1,5 @@
 package com.leetcode;
 
-import java.util.Queue;
-
 public class ImplementationStackUsingQueue {
 
   public static void main(String[] args) {
@@ -13,8 +11,8 @@ public class ImplementationStackUsingQueue {
     myStack.empty(); // return False
   }
 
-  static class MyStack{
-   
+  static class MyStack {
+
     public MyStack() {
 
     }

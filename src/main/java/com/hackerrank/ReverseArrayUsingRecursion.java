@@ -12,16 +12,17 @@ public class ReverseArrayUsingRecursion {
   }
 
   private static void reverseArray(int[] arr) {
-    reverseArray(arr,0,arr.length-1);
+    reverseArray(arr, 0, arr.length - 1);
 
   }
-  private static void reverseArray(int[] arr,int s,int e) {
 
-    if(s<e){
+  private static void reverseArray(int[] arr, int s, int e) {
+
+    if (s < e) {
       int temp = arr[s];
       arr[s] = arr[e];
       arr[e] = temp;
-      reverseArray(arr,++s,--e);
+      reverseArray(arr, ++s, --e);
     }
   }
 }

@@ -62,7 +62,8 @@ public class MagicSquare {
   }
 
   private static boolean magicSquare(int[] arr) {
-    int dia = 0;
+    int dia1 = 0;
+    int dia2 = 0;
     int row1 = 0;
     int row2 = 0;
     int row3 = 0;
@@ -94,13 +95,16 @@ public class MagicSquare {
       }
 
       if (i % 4 == 0) {
-        dia = dia + arr[i];
+        dia1 = dia1 + arr[i];
+      }
 
+      if(i % 2 == 0 && i > 0 && i< arr.length-1){
+        dia2 = dia2 + arr[i];
       }
     }
 
-    if (dia == row1 && dia == col1 && row1 == row2 && row2 == row3 && col1 == col2
-        && col2 == col3) {
+    if (dia1 == row1 && dia1 == col1 && row1 == row2 && row2 == row3 && col1 == col2
+        && col2 == col3 && dia2 == dia1) {
       return true;
     }
     return false;

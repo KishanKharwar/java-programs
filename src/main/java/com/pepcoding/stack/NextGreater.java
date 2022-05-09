@@ -1,6 +1,5 @@
 package com.pepcoding.stack;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 //https://www.youtube.com/watch?v=Zy9XnXw8E7U&list=PL-Jc9J83PIiEyUGT3S8zPdTMYojwZPLUM&index=6
@@ -8,7 +7,7 @@ import java.util.Stack;
 public class NextGreater {
 
   public static void main(String[] args) {
-    int[] arr = {2,5,9,3,1,12,6,8,7};
+    int[] arr = {2, 5, 9, 3, 1, 12, 6, 8, 7};
 
     printNextGreater1(arr);
   }
@@ -21,26 +20,26 @@ public class NextGreater {
   private static void printNextGreater(int[] arr) {
     int[] nge = new int[arr.length];
     Stack<Integer> stack = new Stack<>();
-    stack.push(arr[arr.length-1]);
-    nge[arr.length-1] = -1;
+    stack.push(arr[arr.length - 1]);
+    nge[arr.length - 1] = -1;
 
-    for(int i = arr.length-2;i>=0;i--){
-      if(arr[i]<stack.peek()){
+    for (int i = arr.length - 2; i >= 0; i--) {
+      if (arr[i] < stack.peek()) {
         nge[i] = stack.peek();
-      }else if(arr[i]>stack.peek()){
-        while(!stack.isEmpty() && arr[i]>=stack.peek()){
+      } else if (arr[i] > stack.peek()) {
+        while (!stack.isEmpty() && arr[i] >= stack.peek()) {
           stack.pop();
         }
-        if(stack.isEmpty()){
+        if (stack.isEmpty()) {
           nge[i] = -1;
-        }else{
+        } else {
           nge[i] = stack.peek();
         }
       }
       stack.push(arr[i]);
     }
 
-    for(Integer i : nge){
+    for (Integer i : nge) {
       System.out.print(i + " ");
     }
 
@@ -50,22 +49,22 @@ public class NextGreater {
   private static void printNextGreater1(int[] arr) {
     int[] nge = new int[arr.length];
     Stack<Integer> stack = new Stack<>();
-    stack.push(arr[arr.length-1]);
-    nge[arr.length-1] = -1;
+    stack.push(arr[arr.length - 1]);
+    nge[arr.length - 1] = -1;
 
-    for(int i = arr.length-2;i>=0;i--){
-      while(!stack.isEmpty() && arr[i]>=stack.peek()){
+    for (int i = arr.length - 2; i >= 0; i--) {
+      while (!stack.isEmpty() && arr[i] >= stack.peek()) {
         stack.pop();
       }
-      if(stack.isEmpty()){
+      if (stack.isEmpty()) {
         nge[i] = -1;
-      }else{
+      } else {
         nge[i] = stack.peek();
       }
       stack.push(arr[i]);
     }
 
-    for(Integer i : nge){
+    for (Integer i : nge) {
       System.out.print(i + " ");
     }
 
