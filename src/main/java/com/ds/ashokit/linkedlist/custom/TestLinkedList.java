@@ -15,7 +15,7 @@ public class TestLinkedList {
   private static int size;
 
   public static void main(String[] args) {
-    Node h = add(null, 1);
+    //Node h = add(null, 1);
 //    add(h, 1);
 //    add(h, 3);
 //    add(h, 3);
@@ -26,16 +26,16 @@ public class TestLinkedList {
 //    add(h, 7);
 //    add(h, 9);
 
-    add(h, 3);
-    add(h, 5);
-    add(h, 7);
-    add(h, 10);
-    add(h, 12);
+    Node h = insertAtHead(null, 3);
+    insertAtHead(h, 5);
+    insertAtHead(h, 7);
+    insertAtHead(h, 10);
+    insertAtHead(h, 12);
 
     printLL(h);
-    insertInSortedLinkedList(h,9);
+    //insertInSortedLinkedList(h,9);
     //deleteAllTheOccurances(h, 3);
-    printLL(h);
+    //printLL(h);
   }
 
   private static Node add(Node h, int data) {
@@ -98,6 +98,18 @@ public class TestLinkedList {
     node.next = current;
     temp.next = node;
 
+    return h;
+  }
+
+
+  private static Node insertAtHead(Node h, int data){
+    Node node = new Node(data);
+    if(h == null){
+      return node;
+    }
+
+    node.next = h;
+    h = node;
     return h;
   }
 
