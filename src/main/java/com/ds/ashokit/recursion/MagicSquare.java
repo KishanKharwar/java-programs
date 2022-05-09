@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 6 4 2
  */
 public class MagicSquare {
-
+  private static int min = Integer.MAX_VALUE;
   public static void main(String[] args) {
     int[][] mainArray = {{5, 3, 4}, {1, 5, 8}, {6, 4, 2}};
     int[] mArray = Stream.of(mainArray).flatMapToInt(IntStream::of).toArray();
@@ -29,7 +29,7 @@ public class MagicSquare {
   }
 
   private static void permutations(int[] mainArray, int[] arr, boolean[] taken, int index, int n) {
-    int min = Integer.MAX_VALUE;
+
     if (index == 9) {
       if (magicSquare(arr)) {
         int tempMin = findCost(mainArray, arr);

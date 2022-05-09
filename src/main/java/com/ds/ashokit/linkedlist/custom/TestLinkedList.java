@@ -2,23 +2,39 @@ package com.ds.ashokit.linkedlist.custom;
 
 public class TestLinkedList {
 
+  static class Node {
+
+    int data;
+    Node next;
+
+    public Node(int data) {
+      this.data = data;
+    }
+  }
+
   private static int size;
 
   public static void main(String[] args) {
     Node h = add(null, 1);
-    add(h, 1);
-    add(h, 3);
-    add(h, 3);
+//    add(h, 1);
+//    add(h, 3);
+//    add(h, 3);
+//    add(h, 3);
+//    add(h, 5);
+//    add(h, 5);
+//    add(h, 7);
+//    add(h, 7);
+//    add(h, 9);
+
     add(h, 3);
     add(h, 5);
-    add(h, 5);
     add(h, 7);
-    add(h, 7);
-    add(h, 9);
+    add(h, 10);
+    add(h, 12);
 
     printLL(h);
-
-    deleteAllTheOccurances(h, 3);
+    insertInSortedLinkedList(h,9);
+    //deleteAllTheOccurances(h, 3);
     printLL(h);
   }
 
@@ -69,14 +85,20 @@ public class TestLinkedList {
     return size;
   }
 
-
-  static class Node {
-
-    int data;
-    Node next;
-
-    public Node(int data) {
-      this.data = data;
+  private static Node insertInSortedLinkedList(Node h, int data){
+    Node temp = null;
+    Node current = h;
+    while(current.next!= null && current.data<data){
+      temp = current;
+      current = current.next;
     }
+
+
+    Node node = new Node(data);
+    node.next = current;
+    temp.next = node;
+
+    return h;
   }
+
 }
