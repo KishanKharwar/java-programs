@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagicSquare">
+  <component name="RunManager" selected="Application.NarcissisticNumber">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.SinglyCircularLinkedList" />
+    <configuration name="NarcissisticNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.NarcissisticNumber" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
+          <option name="PATTERN" value="com.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.Test" />
+    <configuration name="SinglyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.SinglyCircularLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.bikram.test.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NarcissisticNumber" />
         <item itemvalue="Application.MagicSquare" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.AddNElementsToSinglyLinkedList" />
         <item itemvalue="Application.SinglyCircularLinkedList" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
