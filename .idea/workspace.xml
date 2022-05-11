@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLinkedList">
+  <component name="RunManager" selected="Application.CustomLinkedList">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -79,12 +79,25 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="AddNElementsToSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.AddNElementsToSinglyLinkedList" />
+    <configuration name="CustomLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.CustomLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.LinkedList" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.bikram.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.SinglyCircularLinkedList" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.TestLinkedList" />
       <module name="IntellijWorkspace" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomLinkedList" />
         <item itemvalue="Application.TestLinkedList" />
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.NarcissisticNumber" />
         <item itemvalue="Application.MagicSquare" />
-        <item itemvalue="Application.AddNElementsToSinglyLinkedList" />
-        <item itemvalue="Application.SinglyCircularLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +178,9 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="index" />
+        <watch expression="this" />
+        <watch expression="this" language="JAVA" />
+        <watch expression="this" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

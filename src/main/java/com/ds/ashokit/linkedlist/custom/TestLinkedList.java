@@ -15,27 +15,46 @@ public class TestLinkedList {
   private static int size;
 
   public static void main(String[] args) {
-    //Node h = add(null, 1);
-//    add(h, 1);
-//    add(h, 3);
-//    add(h, 3);
-//    add(h, 3);
-//    add(h, 5);
-//    add(h, 5);
+    Node h = add(null, 1);
+    //add(h, 1);
+    add(h, 3);
+    add(h, 3);
+    add(h, 3);
+    add(h, 5);
+    add(h, 5);
 //    add(h, 7);
 //    add(h, 7);
 //    add(h, 9);
 
-    Node h = insertAtHead(null, 3);
-    insertAtHead(h, 5);
-    insertAtHead(h, 7);
-    insertAtHead(h, 10);
-    insertAtHead(h, 12);
+//    Node h = insertAtHead(null, 3);
+//    insertAtHead(h, 5);
+//    insertAtHead(h, 7);
+//    insertAtHead(h, 10);
+//    insertAtHead(h, 12);
 
+    printLL(h);
+    unique(h);
     printLL(h);
     //insertInSortedLinkedList(h,9);
     //deleteAllTheOccurances(h, 3);
     //printLL(h);
+  }
+
+  private static Node unique(Node h) {
+    if (h == null) {
+      return h;
+    }
+
+    Node temp = h;
+    while (h.next != null) {
+      if (h.next.data == h.data) {
+        h = h.next.next;
+      } else {
+        h = h.next;
+      }
+    }
+
+    return temp;
   }
 
   private static Node add(Node h, int data) {
@@ -85,14 +104,13 @@ public class TestLinkedList {
     return size;
   }
 
-  private static Node insertInSortedLinkedList(Node h, int data){
+  private static Node insertInSortedLinkedList(Node h, int data) {
     Node temp = null;
     Node current = h;
-    while(current.next!= null && current.data<data){
+    while (current.next != null && current.data < data) {
       temp = current;
       current = current.next;
     }
-
 
     Node node = new Node(data);
     node.next = current;
@@ -102,9 +120,9 @@ public class TestLinkedList {
   }
 
 
-  private static Node insertAtHead(Node h, int data){
+  private static Node insertAtHead(Node h, int data) {
     Node node = new Node(data);
-    if(h == null){
+    if (h == null) {
       return node;
     }
 
