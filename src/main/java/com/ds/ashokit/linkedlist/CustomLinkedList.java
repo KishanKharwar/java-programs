@@ -53,12 +53,117 @@ public class CustomLinkedList {
 //    System.out.println(" Size : " + linkedList.size());
 
       //reversing linkedlist
+//    CustomLinkedList linkedList = new CustomLinkedList();
+//    linkedList.add(10);
+//    linkedList.add(20);
+//    linkedList.add(30);
+//    Node head = linkedList.reverseLinkedList();
+//    printLinkedList(head);
+
+    //printing distinct element of the linked list
+//    CustomLinkedList linkedList = new CustomLinkedList();
+//    linkedList.add(1);
+//    linkedList.add(1);
+//    linkedList.add(1);
+//    linkedList.add(1);
+//    linkedList.add(2);
+//    linkedList.add(2);
+//    linkedList.add(3);
+//    linkedList.add(3);
+//    linkedList.add(3);
+//
+//    linkedList.printDistinct();
+//    printLinkedList(linkedList.head);
+
+    //delete all occurances of specific elements of the linked list
+//    CustomLinkedList linkedList = new CustomLinkedList();
+//    linkedList.add(1);
+//    linkedList.add(2);
+//    linkedList.add(2);
+//    linkedList.add(3);
+//    linkedList.add(4);
+//    linkedList.add(4);
+//    linkedList.add(5);
+//    linkedList.add(6);
+//    Node h = linkedList.deleteAllTheOccurances(linkedList.head,2);
+//    printLinkedList(h);
+
+    //print unique elements of the linked list
     CustomLinkedList linkedList = new CustomLinkedList();
-    linkedList.add(10);
-    linkedList.add(20);
-    linkedList.add(30);
-    linkedList.reverseLinkedList();
-    printLinkedList(linkedList.head);
+    linkedList.add(1);
+    linkedList.add(2);
+    linkedList.add(2);
+    linkedList.add(3);
+    linkedList.add(4);
+    linkedList.add(4);
+    linkedList.add(5);
+    linkedList.add(6);
+    Node h = linkedList.printUnique(linkedList.size);
+    printLinkedList(h);
+  }
+
+  private Node printUnique(int size){
+    Node temp = head;
+
+    if(temp == null){
+      return temp;
+    }
+
+    boolean flag = false;
+    int data = temp.data;
+
+    for(int i = 0;i<size;i++){
+
+      if(temp.next!= null && temp.next.data == data){
+        flag = true;
+      }
+
+      if(flag){
+        temp = deleteAllTheOccurances(temp,data);
+      }
+
+      if(temp.next!= null)
+        data = temp.next.data;
+      flag = false;
+    }
+    return temp;
+  }
+
+  private Node deleteAllTheOccurances(Node h, int data){
+
+    Node temp = h;
+    if(temp == null){
+      return temp;
+    }
+    //if first node is having the same key
+    while(h!= null && h.data == data){
+        return h.next;
+    }
+
+    while(h.next!= null){
+      if(h.next.data == data){
+        h.next = h.next.next;
+      }else{
+        h = h.next;
+      }
+    }
+   return temp;
+  }
+
+  private void printDistinct(){
+    Node temp = head;
+
+    if(head == null){
+      return;
+    }
+
+    while(temp.next != null){
+      if(temp.next.data == temp.data){
+        temp.next = temp.next.next;
+      }else {
+        temp = temp.next;
+      }
+    }
   }
 
   private Node reverseLinkedList(){
@@ -71,6 +176,7 @@ public class CustomLinkedList {
 
       prev = curr;
       curr = temp;
+
     }
 
     return prev;
@@ -90,11 +196,12 @@ public class CustomLinkedList {
     if(head == null){
       return count;
     }
-
-    while(head != null){
+    Node temp = head;
+    while(temp != null){
       count++;
-      head = head.next;
+      temp = temp.next;
     }
+
     return count;
   }
 
@@ -141,16 +248,17 @@ public class CustomLinkedList {
 
     if(head == null){
       temp = head = node;
-
+      size++;
       return temp;
     }
 
     while(temp.next != null){
+
       temp = temp.next;
     }
 
     temp.next = node;
-
+    size++;
     return temp;
   }
 
