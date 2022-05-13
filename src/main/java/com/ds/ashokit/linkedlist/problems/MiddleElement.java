@@ -1,10 +1,13 @@
 package com.ds.ashokit.linkedlist.problems;
 
 public class MiddleElement {
-  static class Node{
+
+  private static class Node {
+
     int data;
     Node next;
-    public Node(int data){
+
+    public Node(int data) {
       this.data = data;
     }
   }
@@ -12,15 +15,15 @@ public class MiddleElement {
   public static void main(String[] args) {
     //For even number of elements in Linked List
     MiddleElement element = new MiddleElement();
-    Node h = element.add(null,1);
-    element.add(h,7);
-    element.add(h,2);
-    element.add(h,6);
-    element.add(h,3);
-    element.add(h,9);
+    Node h = element.add(null, 1);
+    element.add(h, 7);
+    element.add(h, 2);
+    element.add(h, 6);
+    element.add(h, 3);
+    element.add(h, 9);
     printLinkedList(h);
     int mid = findMiddleElement(h);
-    System.out.println("Mid Element : "+mid);
+    System.out.println("Mid Element : " + mid);
 
     // for odd number of elements in Linked List
 //    MiddleElement element = new MiddleElement();
@@ -38,7 +41,7 @@ public class MiddleElement {
   private static int findMiddleElement(Node h) {
     Node slow = h;
     Node fast = h;
-    while(fast.next != null && fast.next.next!= null){
+    while (fast.next != null && fast.next.next != null) {
       slow = slow.next;
       fast = fast.next.next;
     }
@@ -47,16 +50,16 @@ public class MiddleElement {
   }
 
 
-  private Node add(Node head,int data){
-     Node temp =  head;
-     Node node = new Node(data);
+  private Node add(Node head, int data) {
+    Node temp = head;
+    Node node = new Node(data);
 
-    if(head == null){
+    if (head == null) {
       temp = head = node;
       return temp;
     }
 
-    while(temp.next != null){
+    while (temp.next != null) {
       temp = temp.next;
     }
 
@@ -64,12 +67,12 @@ public class MiddleElement {
     return temp;
   }
 
-  private static void printLinkedList(Node h){
-    if(h == null){
-      return ;
+  private static void printLinkedList(Node h) {
+    if (h == null) {
+      return;
     }
 
-    while(h!= null){
+    while (h != null) {
       System.out.print(h.data + "->");
       h = h.next;
     }
