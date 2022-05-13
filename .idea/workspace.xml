@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomLinkedList">
+  <component name="RunManager" selected="Application.MiddleElement">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NarcissisticNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.NarcissisticNumber" />
+    <configuration name="MiddleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.MiddleElement" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleElement" />
         <item itemvalue="Application.CustomLinkedList" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.NarcissisticNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -174,9 +174,9 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/linkedlist/CustomLinkedList.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/linkedlist/problems/MiddleElement.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
