@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagicSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.MagicSquare" />
+    <configuration name="NarcissisticNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.NarcissisticNumber" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
+          <option name="PATTERN" value="com.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NarcissisticNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.NarcissisticNumber" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sde.sheet.day1.PascalTriangle" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.sde.sheet.day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomLinkedList" />
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.NarcissisticNumber" />
-        <item itemvalue="Application.MagicSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -175,8 +175,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/linkedlist/CustomLinkedList.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="15" />
+          <line>113</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

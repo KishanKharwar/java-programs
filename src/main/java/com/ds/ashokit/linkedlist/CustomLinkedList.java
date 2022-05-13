@@ -98,35 +98,38 @@ public class CustomLinkedList {
     linkedList.add(4);
     linkedList.add(5);
     linkedList.add(6);
-    Node h = linkedList.printUnique(linkedList.size);
+    Node h = linkedList.printUniqueElements(linkedList.head);
     printLinkedList(h);
   }
 
-  private Node printUnique(int size){
-    Node temp = head;
-
-    if(temp == null){
-      return temp;
+  private Node printUniqueElements(Node h) {
+    if(h == null){
+      return h;
     }
 
-    boolean flag = false;
-    int data = temp.data;
+    Node temp = new Node(0);
+    Node dummy = temp, k = null;
+    boolean flag;
 
-    for(int i = 0;i<size;i++){
-
-      if(temp.next!= null && temp.next.data == data){
-        flag = true;
-      }
-
-      if(flag){
-        temp = deleteAllTheOccurances(temp,data);
-      }
-
-      if(temp.next!= null)
-        data = temp.next.data;
+    while(h!= null){
       flag = false;
+      int data = h.data;
+
+      while(h.next!= null && h.next.data == data){
+        flag = true;
+        h.next = h.next.next;
+      }
+
+      k = h.next;
+      if(!flag){
+        dummy.next = h;
+        h.next = null;
+        dummy = dummy.next;
+      }
+
+      h = k;
     }
-    return temp;
+    return temp.next;
   }
 
   private Node deleteAllTheOccurances(Node h, int data){
