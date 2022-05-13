@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedLinkedList">
+  <component name="RunManager" selected="Application.PlaceAlternateFirstAndLastElements">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -92,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListKReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.linkedlist.LinkedListKReverse" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pepcoding.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.MergeSortedLinkedList" />
       <module name="IntellijWorkspace" />
@@ -118,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sde.sheet.day1.PascalTriangle" />
+    <configuration name="PlaceAlternateFirstAndLastElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.PlaceAlternateFirstAndLastElements" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sde.sheet.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.custom.TestLinkedList" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.custom.*" />
+          <option name="PATTERN" value="com.ds.ashokit.linkedlist.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlaceAlternateFirstAndLastElements" />
+        <item itemvalue="Application.LinkedListKReverse" />
         <item itemvalue="Application.MergeSortedLinkedList" />
         <item itemvalue="Application.MiddleElement" />
         <item itemvalue="Application.CustomLinkedList" />
-        <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.TestLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +172,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/pattern/printing/Pattern15.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/linkedlist/problems/MergeSortedLinkedList.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
