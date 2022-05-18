@@ -12,21 +12,13 @@ public class MinimumFlips {
 
   private static int theFinalProblem(String target) {
     int count = 0;
-
-//    int targetInt = Integer.valueOf(target);
-//    int dummy = 0;
-    //System.out.println(targetInt);
-    char[] arr = target.toCharArray();
-    for(int i =0;i<arr.length;i++){
-      int flipped = 0 ^ arr[i];
-      if(flipped != 0){
-        //int rsb = (flipped & -flipped);
-        //flipped -= rsb;
+    char curr = '1';
+    for(int i =0;i<target.length();i++){
+      if(target.charAt(i) == curr){
         count++;
+        curr = (char)(48 + (curr + 1)%2);
       }
     }
-
-      return count;
-
+    return count;
   }
 }
