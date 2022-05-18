@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumFlips">
+  <component name="RunManager" selected="Application.MergeSortInLinkedList">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -146,10 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortInLinkedList" />
         <item itemvalue="Application.MinimumFlips" />
         <item itemvalue="Application.ClosedPath" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MergeSortInLinkedList" />
         <item itemvalue="Application.MergeTwoSortedLinkedList" />
       </list>
     </recent_temporary>
