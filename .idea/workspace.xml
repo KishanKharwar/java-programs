@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/spring-angular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/spring-oauth2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunAnythingCache">
@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlaceAlternateFirstAndLastElements">
+  <component name="RunManager" selected="Application.MinimumFlips">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -79,12 +79,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="CustomLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.CustomLinkedList" />
+    <configuration name="ClosedPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.ClosedPath" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.*" />
+          <option name="PATTERN" value="com.test.bikram.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListKReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.linkedlist.LinkedListKReverse" />
+    <configuration name="MergeSortInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.MergeSortInLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.linkedlist.*" />
+          <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.MergeSortedLinkedList" />
+    <configuration name="MergeTwoSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.MergeTwoSortedLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.problems.*" />
+          <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.MiddleElement" />
+    <configuration name="MinimumFlips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.MinimumFlips" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.problems.*" />
+          <option name="PATTERN" value="com.test.bikram.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaceAlternateFirstAndLastElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.linkedlist.problems.PlaceAlternateFirstAndLastElements" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.Test" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.linkedlist.problems.*" />
+          <option name="PATTERN" value="com.test.bikram.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlaceAlternateFirstAndLastElements" />
-        <item itemvalue="Application.LinkedListKReverse" />
-        <item itemvalue="Application.MergeSortedLinkedList" />
-        <item itemvalue="Application.MiddleElement" />
-        <item itemvalue="Application.CustomLinkedList" />
+        <item itemvalue="Application.MinimumFlips" />
+        <item itemvalue="Application.ClosedPath" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MergeSortInLinkedList" />
+        <item itemvalue="Application.MergeTwoSortedLinkedList" />
       </list>
     </recent_temporary>
   </component>
