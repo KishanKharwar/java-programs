@@ -6,16 +6,25 @@ public class Test {
 
   public static void main(String[] args) {
 
-    String[] arr = {"yellow", "blue", "green", "orange"};
-
-    Scanner sc = new Scanner(System.in);
-    String ch = sc.next();
-
-    for (String s : arr) {
-      if (s.contains(ch)) {
-        System.out.println(s);
+    int k = 0;
+    for(int i = 10;i>0;i--){
+      while(i>3){
+        i -= 3;
       }
+      k +=1;
     }
+    System.out.println(k);
+
+//    String[] arr = {"yellow", "blue", "green", "orange"};
+//
+//    Scanner sc = new Scanner(System.in);
+//    String ch = sc.next();
+//
+//    for (String s : arr) {
+//      if (s.contains(ch)) {
+//        System.out.println(s);
+//      }
+//    }
 
     // Arrays.stream(arr).filter(s -> s.contains(ch)).forEach(System.out::println);
 

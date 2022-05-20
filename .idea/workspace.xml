@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOfTwoLinkedList">
+  <component name="RunManager" selected="Application.IntersectionOfLinkedList">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -79,38 +79,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="ClosedPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.ClosedPath" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.bikram.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.MergeSortInLinkedList" />
+    <configuration name="IntersectionOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.IntersectionOfLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumFlips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.MinimumFlips" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.bikram.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +118,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wardrobe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.pack2.Wardrobe" />
+      <module name="IntellijWorkspace" />
+      <option name="PROGRAM_PARAMETERS" value="java Test a b c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.bikram.test.pack2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PalindromeLinkedList" />
+      <item itemvalue="Application.SumOfTwoLinkedList" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Wardrobe" />
+      <item itemvalue="Application.IntersectionOfLinkedList" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfLinkedList" />
+        <item itemvalue="Application.Wardrobe" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.SumOfTwoLinkedList" />
         <item itemvalue="Application.PalindromeLinkedList" />
-        <item itemvalue="Application.MergeSortInLinkedList" />
-        <item itemvalue="Application.MinimumFlips" />
-        <item itemvalue="Application.ClosedPath" />
       </list>
     </recent_temporary>
   </component>
