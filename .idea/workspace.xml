@@ -55,7 +55,7 @@
       <command value="open json-file-to-object" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfLinkedList">
+  <component name="RunManager" selected="Application.MatrixSymmetric">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -79,6 +79,19 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="CountingBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.CountingBrackets" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.mohit.axyya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntersectionOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.IntersectionOfLinkedList" />
       <module name="IntellijWorkspace" />
@@ -92,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.PalindromeLinkedList" />
+    <configuration name="MatrixSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.MatrixSymmetric" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
+          <option name="PATTERN" value="com.test.mohit.axyya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.SumOfTwoLinkedList" />
+    <configuration name="PreviousSmallerElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.PreviousSmallerElementInArray" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
+          <option name="PATTERN" value="com.test.mohit.axyya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,26 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.Test" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wardrobe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.bikram.test.pack2.Wardrobe" />
-      <module name="IntellijWorkspace" />
-      <option name="PROGRAM_PARAMETERS" value="java Test a b c" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.bikram.test.pack2.*" />
+          <option name="PATTERN" value="com.test.mohit.axyya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PalindromeLinkedList" />
-      <item itemvalue="Application.SumOfTwoLinkedList" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Wardrobe" />
       <item itemvalue="Application.IntersectionOfLinkedList" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.CountingBrackets" />
+      <item itemvalue="Application.PreviousSmallerElementInArray" />
+      <item itemvalue="Application.MatrixSymmetric" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixSymmetric" />
+        <item itemvalue="Application.PreviousSmallerElementInArray" />
+        <item itemvalue="Application.CountingBrackets" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.IntersectionOfLinkedList" />
-        <item itemvalue="Application.Wardrobe" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SumOfTwoLinkedList" />
-        <item itemvalue="Application.PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +184,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/test/bikram/test/MinimumFlips.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/mohit/axyya/MatrixSymmetric.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
