@@ -30,8 +30,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/pepcoding/stack/DuplicateBracket.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/test/interview/SwapArray.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pepcoding/stack/DuplicateBracket.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="271ZrnbdgYb9YI9ZT1gVRC2qPEu" />
   <component name="ProjectViewState">
@@ -53,9 +53,10 @@
       <command value="open spring-angular" />
       <command value="open scheduler" />
       <command value="open json-file-to-object" />
+      <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixSymmetric">
+  <component name="RunManager" selected="Application.GenericTree">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -79,12 +80,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="CountingBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.CountingBrackets" />
+    <configuration name="CycleDetectionLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.CycleDetectionLinkedList" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.mohit.axyya.*" />
+          <option name="PATTERN" value="com.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.custom.linkedlist.IntersectionOfLinkedList" />
+    <configuration name="FindMissingAndRepeatingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.FindMissingAndRepeatingNumber" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.custom.linkedlist.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.MatrixSymmetric" />
+    <configuration name="GenericTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.GenericTree" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.mohit.axyya.*" />
+          <option name="PATTERN" value="com.pepcoding.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousSmallerElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.PreviousSmallerElementInArray" />
+    <configuration name="PalindromicLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.PalindromicLinkedList1" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.mohit.axyya.*" />
+          <option name="PATTERN" value="com.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.mohit.axyya.Test" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ValidParenthesis" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.mohit.axyya.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntersectionOfLinkedList" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.CountingBrackets" />
-      <item itemvalue="Application.PreviousSmallerElementInArray" />
-      <item itemvalue="Application.MatrixSymmetric" />
+      <item itemvalue="Application.PalindromicLinkedList1" />
+      <item itemvalue="Application.CycleDetectionLinkedList" />
+      <item itemvalue="Application.ValidParenthesis" />
+      <item itemvalue="Application.FindMissingAndRepeatingNumber" />
+      <item itemvalue="Application.GenericTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrixSymmetric" />
-        <item itemvalue="Application.PreviousSmallerElementInArray" />
-        <item itemvalue="Application.CountingBrackets" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.IntersectionOfLinkedList" />
+        <item itemvalue="Application.GenericTree" />
+        <item itemvalue="Application.FindMissingAndRepeatingNumber" />
+        <item itemvalue="Application.ValidParenthesis" />
+        <item itemvalue="Application.CycleDetectionLinkedList" />
+        <item itemvalue="Application.PalindromicLinkedList1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +185,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/test/bikram/test/MinimumFlips.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/test/mohit/axyya/MatrixSymmetric.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
