@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericTree">
+  <component name="RunManager" selected="Application.LengthOfLongestNonRepeatingSubstring">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.PalindromicLinkedList1" />
+    <configuration name="LengthOfLongestNonRepeatingSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.LengthOfLongestNonRepeatingSubstring" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PalindromicLinkedList1" />
       <item itemvalue="Application.CycleDetectionLinkedList" />
       <item itemvalue="Application.ValidParenthesis" />
       <item itemvalue="Application.FindMissingAndRepeatingNumber" />
       <item itemvalue="Application.GenericTree" />
+      <item itemvalue="Application.LengthOfLongestNonRepeatingSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestNonRepeatingSubstring" />
         <item itemvalue="Application.GenericTree" />
         <item itemvalue="Application.FindMissingAndRepeatingNumber" />
         <item itemvalue="Application.ValidParenthesis" />
         <item itemvalue="Application.CycleDetectionLinkedList" />
-        <item itemvalue="Application.PalindromicLinkedList1" />
       </list>
     </recent_temporary>
   </component>
