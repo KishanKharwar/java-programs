@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BalancedParenthesisUsingRecursion {
 
   public static void main(String[] args) {
-    int n = 1;
+    int n = 4;
     char[] ch = new char[n * 2];
     int index = 0;
     int open = 0;

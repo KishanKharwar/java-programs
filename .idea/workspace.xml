@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestNonRepeatingSubstring">
+  <component name="RunManager" selected="Application.SumIsPresentInSubset">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -80,38 +80,38 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="CycleDetectionLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.CycleDetectionLinkedList" />
+    <configuration name="BalancedParenthesisUsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.recursion.BalancedParenthesisUsingRecursion" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.ashokit.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateAllParenthesesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interviewbit.GenerateAllParenthesesII" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interviewbit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HarshadNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.HarshadNumber" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMissingAndRepeatingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.FindMissingAndRepeatingNumber" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.GenericTree" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pepcoding.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ValidParenthesis" />
+    <configuration name="SumIsPresentInSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.SumIsPresentInSubset" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CycleDetectionLinkedList" />
-      <item itemvalue="Application.ValidParenthesis" />
-      <item itemvalue="Application.FindMissingAndRepeatingNumber" />
-      <item itemvalue="Application.GenericTree" />
       <item itemvalue="Application.LengthOfLongestNonRepeatingSubstring" />
+      <item itemvalue="Application.BalancedParenthesisUsingRecursion" />
+      <item itemvalue="Application.GenerateAllParenthesesII" />
+      <item itemvalue="Application.HarshadNumber" />
+      <item itemvalue="Application.SumIsPresentInSubset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumIsPresentInSubset" />
+        <item itemvalue="Application.HarshadNumber" />
+        <item itemvalue="Application.GenerateAllParenthesesII" />
+        <item itemvalue="Application.BalancedParenthesisUsingRecursion" />
         <item itemvalue="Application.LengthOfLongestNonRepeatingSubstring" />
-        <item itemvalue="Application.GenericTree" />
-        <item itemvalue="Application.FindMissingAndRepeatingNumber" />
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.CycleDetectionLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +185,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/test/bikram/test/MinimumFlips.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LengthOfLongestNonRepeatingSubstring.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
