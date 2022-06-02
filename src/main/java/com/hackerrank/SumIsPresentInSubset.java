@@ -19,7 +19,7 @@ public class SumIsPresentInSubset {
 
   private static boolean checkSubsetSum(int[] arr) {
     boolean res = true;
-    
+
     return res;
   }
 
