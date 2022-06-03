@@ -17,7 +17,7 @@ public class SelfLoopInLinkedList {
 
 
   }
-  
+
   private static Node floydCycle(Node head){
     Node slow = head;
     Node fast = head;

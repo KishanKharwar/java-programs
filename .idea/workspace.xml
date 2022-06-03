@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelfLoopInLinkedList">
+  <component name="RunManager" selected="Application.CubeRoot">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -93,12 +93,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HarshadNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.HarshadNumber" />
+    <configuration name="CubeRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.CubeRoot" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FloorOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.FloorOfANumber" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Recro" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,46 +145,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.SingleNumber21" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumIsPresentInSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.SumIsPresentInSubset" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.HarshadNumber" />
-      <item itemvalue="Application.SumIsPresentInSubset" />
-      <item itemvalue="Application.SingleNumber21" />
       <item itemvalue="Application.CombinationSum1SubsetsSum" />
       <item itemvalue="Application.SelfLoopInLinkedList" />
+      <item itemvalue="Application.Recro" />
+      <item itemvalue="Application.CubeRoot" />
+      <item itemvalue="Application.FloorOfANumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CubeRoot" />
+        <item itemvalue="Application.FloorOfANumber" />
+        <item itemvalue="Application.Recro" />
         <item itemvalue="Application.SelfLoopInLinkedList" />
         <item itemvalue="Application.CombinationSum1SubsetsSum" />
-        <item itemvalue="Application.SingleNumber21" />
-        <item itemvalue="Application.SumIsPresentInSubset" />
-        <item itemvalue="Application.HarshadNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +190,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/LengthOfLongestNonRepeatingSubstring.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hackerrank/FloorOfANumber.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
