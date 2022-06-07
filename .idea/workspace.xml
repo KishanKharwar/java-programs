@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixMultiplication">
+  <component name="RunManager" selected="Application.MatrixWaveTraversal">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Recro" />
+    <configuration name="MatrixWaveTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revision.matrix.MatrixWaveTraversal" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.revision.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Recro" />
       <item itemvalue="Application.CubeRoot" />
       <item itemvalue="Application.FloorOfANumber" />
       <item itemvalue="Application.Java1DArray" />
       <item itemvalue="Application.MatrixMultiplication" />
+      <item itemvalue="Application.MatrixWaveTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixWaveTraversal" />
         <item itemvalue="Application.MatrixMultiplication" />
         <item itemvalue="Application.Java1DArray" />
         <item itemvalue="Application.CubeRoot" />
         <item itemvalue="Application.FloorOfANumber" />
-        <item itemvalue="Application.Recro" />
       </list>
     </recent_temporary>
   </component>
