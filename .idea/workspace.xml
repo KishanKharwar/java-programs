@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeInsertNode">
+  <component name="RunManager" selected="Application.TreePreOrderTraversal">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -80,51 +80,38 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.tree.binarysearchtree.BST" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.ashokit.tree.binarysearchtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTAddNewNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.tree.binarysearchtree.BSTAddNewNode" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.ashokit.tree.binarysearchtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTreeInsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.tree.binarytree.BinaryTreeInsertNode" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ds.ashokit.tree.binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CubeRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.CubeRoot" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java1DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank2.Java1DArray" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hackerrank2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.revision.matrix.MatrixMultiplication" />
-      <module name="IntellijWorkspace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revision.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,20 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreePreOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.TreePreOrderTraversal" />
+      <module name="IntellijWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CubeRoot" />
-      <item itemvalue="Application.Java1DArray" />
-      <item itemvalue="Application.MatrixMultiplication" />
       <item itemvalue="Application.MatrixWaveTraversal" />
       <item itemvalue="Application.BinaryTreeInsertNode" />
+      <item itemvalue="Application.BST" />
+      <item itemvalue="Application.BSTAddNewNode" />
+      <item itemvalue="Application.TreePreOrderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreePreOrderTraversal" />
+        <item itemvalue="Application.BSTAddNewNode" />
+        <item itemvalue="Application.BST" />
         <item itemvalue="Application.BinaryTreeInsertNode" />
         <item itemvalue="Application.MatrixWaveTraversal" />
-        <item itemvalue="Application.MatrixMultiplication" />
-        <item itemvalue="Application.Java1DArray" />
-        <item itemvalue="Application.CubeRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +200,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hackerrank2/Java1DArray.java</url>
           <line>13</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hackerrank/TreePreOrderTraversal.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
