@@ -7,12 +7,55 @@ public class BSTAddNewNode {
     int[] arr = {12, 25, 37, 50, 62, 75, 87};
     //int[] arr = {3 ,2 ,4 ,1 ,5 };
     Node root = createBST(arr, 0, arr.length - 1);
+
+
+    root = add(root,97);
+    display(root);
+    System.out.println("----------------------");
+
+    root = remove(root,25);
     display(root);
     System.out.println();
+
 //    Node n = add(root,17);
 //    display(n);
   }
 
+  private static Node remove(Node root, int data) {
+    if(root == null){
+      return null;
+    }
+
+    if(data<root.data){
+      root.left = remove(root.left,data);
+    }else if(data>root.data){
+      root.right = remove(root.right,data);
+    }else{
+      if(root.left != null && root.right != null){
+        int lmax = max(root.left);
+        root.data = lmax;
+        root.left = remove(root.left,lmax);
+        return root;
+      }else if(root.left != null){
+        return root.left;
+      }else if(root.right != null){
+        return root.right;
+      }else{
+        return null;
+      }
+    }
+    return root;
+  }
+
+  private static int max(Node root){
+
+    if(root.right != null){
+      return max(root.right);
+    }else{
+      return root.data;
+    }
+
+  }
   private static Node add(Node node, int data){
 
     if(node == null){
