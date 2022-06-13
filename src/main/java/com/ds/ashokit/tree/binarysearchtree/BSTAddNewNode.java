@@ -1,6 +1,8 @@
 package com.ds.ashokit.tree.binarysearchtree;
 
 
+import org.junit.Test;
+
 public class BSTAddNewNode {
 
   public static void main(String[] args) {
@@ -21,6 +23,7 @@ public class BSTAddNewNode {
 //    display(n);
   }
 
+  @Test
   private static Node remove(Node root, int data) {
     if(root == null){
       return null;
