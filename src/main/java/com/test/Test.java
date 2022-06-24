@@ -1,19 +1,28 @@
 package com.test;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Test {
 
   public static void main(String[] args) {
 
-    int k = 0;
-    for(int i = 10;i>0;i--){
-      while(i>3){
-        i -= 3;
-      }
-      k +=1;
-    }
-    System.out.println(k);
+//    double d = (1.0 + 6.0)/2;
+    int a = 3;
+    int b = 3;
+    double d = ((double) a + (double) b)/2;
+    System.out.println(d);
+    System.out.println(Math.ceil(d));
+
+//
+//    int k = 0;
+//    for(int i = 10;i>0;i--){
+//      while(i>3){
+//        i -= 3;
+//      }
+//      k +=1;
+//    }
+//    System.out.println(k);
 
 //    String[] arr = {"yellow", "blue", "green", "orange"};
 //

@@ -10,22 +10,27 @@ public class ValidBST {
     }
 
     postOrder(root);
+    System.out.println();
     boolean res = isValidBST(root);
     System.out.println(res);
   }
+
+  static int min = Integer.MIN_VALUE;
   public static boolean isValidBST(Node root) {
     if(root == null){
       return true;
     }
-    Node temp = root;
-    if(root.left != null && root.left.val < root.val){
-      return isValidBST(root.left);
-    }else if(root.right != null && root.right.val > root.val){
-      return isValidBST(root.right);
+
+    isValidBST(root.left);
+
+    if(min < root.val){
+      min = root.val;
     }else{
       return false;
     }
+    isValidBST(root.right);
 
+    return true;
   }
 
 

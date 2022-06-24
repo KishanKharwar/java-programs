@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/spring-oauth2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/springboot-ingram" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
   <component name="RunAnythingCache">
@@ -56,7 +56,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindDistanceBetweenTwoNodes">
+  <component name="RunManager" selected="Application.LastIndexOccurance12">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -80,12 +80,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="FindDistanceBetweenTwoNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.ashokit.tree.binarysearchtree.FindDistanceBetweenTwoNodes" />
+    <configuration name="DisplayAnArray8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.DisplayAnArray8" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.ashokit.tree.binarysearchtree.*" />
+          <option name="PATTERN" value="com.pepcoding.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.bst.LowestCommonAncestorInBST" />
+    <configuration name="DisplayArrayReverse9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.DisplayArrayReverse9" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.tree.bst.*" />
+          <option name="PATTERN" value="com.pepcoding.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.bst.PrintInRange" />
+    <configuration name="FirstIndexOfOccurance11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.FirstIndexOfOccurance11" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.tree.bst.*" />
+          <option name="PATTERN" value="com.pepcoding.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSumOfLarger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.bst.ReplaceSumOfLarger" />
+    <configuration name="LastIndexOccurance12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.LastIndexOccurance12" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.tree.bst.*" />
+          <option name="PATTERN" value="com.pepcoding.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetSumPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.tree.bst.TargetSumPair" />
+    <configuration name="MaxValueInArray10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.MaxValueInArray10" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.tree.bst.*" />
+          <option name="PATTERN" value="com.pepcoding.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReplaceSumOfLarger" />
-      <item itemvalue="Application.LowestCommonAncestorInBST" />
-      <item itemvalue="Application.PrintInRange" />
-      <item itemvalue="Application.TargetSumPair" />
-      <item itemvalue="Application.FindDistanceBetweenTwoNodes" />
+      <item itemvalue="Application.DisplayAnArray8" />
+      <item itemvalue="Application.DisplayArrayReverse9" />
+      <item itemvalue="Application.MaxValueInArray10" />
+      <item itemvalue="Application.FirstIndexOfOccurance11" />
+      <item itemvalue="Application.LastIndexOccurance12" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDistanceBetweenTwoNodes" />
-        <item itemvalue="Application.TargetSumPair" />
-        <item itemvalue="Application.PrintInRange" />
-        <item itemvalue="Application.LowestCommonAncestorInBST" />
-        <item itemvalue="Application.ReplaceSumOfLarger" />
+        <item itemvalue="Application.LastIndexOccurance12" />
+        <item itemvalue="Application.FirstIndexOfOccurance11" />
+        <item itemvalue="Application.MaxValueInArray10" />
+        <item itemvalue="Application.DisplayArrayReverse9" />
+        <item itemvalue="Application.DisplayAnArray8" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +172,18 @@
       <updated>1648489756305</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,11 +219,6 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ValidBST.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hackerrank/AddNodeToDoublyLinkedList.java</url>
           <line>20</line>
           <option name="timeStamp" value="25" />
@@ -220,6 +227,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/pepcoding/tree/bst/TargetSumPair.java</url>
           <line>24</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ds/ashokit/array/LongestContinuousSubArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/SortedArrayToBST.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ReverseVowelsOfString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/RotateString.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/BackspaceStringCompare.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/BackspaceStringCompare.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/ValidBST.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
