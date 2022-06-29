@@ -1,6 +1,6 @@
 package com.pepcoding.revision;
 
-public class PowerLograthmic {
+public class PowerLograthmic6 {
 
   public static void main(String[] args) {
     int x = 3;

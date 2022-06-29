@@ -1,4 +1,4 @@
-package com.test;
+package com.test.interview;
 
 public class InterfImpl implements Interf1, Interf2 {
 

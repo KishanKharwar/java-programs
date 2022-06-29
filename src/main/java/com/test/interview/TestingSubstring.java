@@ -1,4 +1,4 @@
-package com.test;
+package com.test.interview;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.test;
+package com.test.interview;
 
 public interface Interf2 {
 

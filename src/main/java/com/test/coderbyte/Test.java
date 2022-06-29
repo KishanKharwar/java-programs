@@ -1,4 +1,4 @@
-package com.test;
+package com.test.coderbyte;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.test;
+package com.test.interview;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;

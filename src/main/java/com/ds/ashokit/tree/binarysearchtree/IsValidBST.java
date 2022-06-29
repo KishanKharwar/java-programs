@@ -46,9 +46,7 @@ public class IsValidBST {
 
     l1.retainAll(l2);
     int len1 = l1.size();
-    int len2 = l2.size();
-
-    return 0;
+    return len1;
   }
 
   private static void findPath(Node root, int a, List<Node> list) {
@@ -63,7 +61,7 @@ public class IsValidBST {
       list.add(root);
       findPath(root.left,a,list);
     }else{
-
+      list.add(root);
     }
 
   }
