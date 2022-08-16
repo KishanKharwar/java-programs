@@ -8,10 +8,8 @@ o/p : 3 -> 4 -> 5 -> 9 -> 8 -> 2 -> -1
 public class PlaceAlternateFirstAndLastElements {
 
   private static class Node {
-
     int data;
     Node next;
-
     public Node(int data) {
       this.data = data;
     }

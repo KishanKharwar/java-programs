@@ -41,8 +41,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/springboot-ingram" />
-    <property name="settings.editor.selected.configurable" value="http.certificates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../igm/s3-file-upload" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java8.streams.bacis" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -56,7 +64,7 @@
       <command value="open spring-oauth2" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetMazePath17">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -80,12 +88,12 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="AllIndicesOfOccurance13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.AllIndicesOfOccurance13" />
+    <configuration name="EmailSendingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.EmailSendingApplication" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.revision.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllSubSequence14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.GetAllSubSequence14" />
+    <configuration name="RealTimeQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.streams.bacis.RealTimeQueries" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.revision.*" />
+          <option name="PATTERN" value="com.java8.streams.bacis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetKeypadCombination15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.GetKeypadCombination15" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.ust.Test" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.revision.*" />
+          <option name="PATTERN" value="com.test.ust.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMazePath17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.GetMazePath17" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.revision.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetStairPath16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pepcoding.revision.GetStairPath16" />
+    <configuration name="TipTop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.TipTop" />
       <module name="IntellijWorkspace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pepcoding.revision.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GetKeypadCombination15" />
-      <item itemvalue="Application.GetAllSubSequence14" />
-      <item itemvalue="Application.AllIndicesOfOccurance13" />
-      <item itemvalue="Application.GetStairPath16" />
-      <item itemvalue="Application.GetMazePath17" />
+      <item itemvalue="Application.EmailSendingApplication" />
+      <item itemvalue="Application.RealTimeQueries" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TipTop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetMazePath17" />
-        <item itemvalue="Application.GetStairPath16" />
-        <item itemvalue="Application.GetKeypadCombination15" />
-        <item itemvalue="Application.GetAllSubSequence14" />
-        <item itemvalue="Application.AllIndicesOfOccurance13" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.EmailSendingApplication" />
+        <item itemvalue="Application.TipTop" />
+        <item itemvalue="Application.RealTimeQueries" />
       </list>
     </recent_temporary>
   </component>

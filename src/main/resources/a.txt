@@ -1,0 +1,120 @@
+
+USE [CustomerLifeCycle]
+GO
+/****** Object:  StoredProcedure [clc].[USP_CLC_Get_CISCO_Order_Consumption_Data]    Script Date: 7/11/2022 2:25:36 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+ALTER PROCEDURE [clc].[USP_CLC_Get_CISCO_Order_Consumption_Data]
+(
+	@SK_CLC_Company INT =18,
+  @SK_CLC_Vendor_Group INT=15,
+  @Order_Date_From           SMALLDATETIME,
+  @Order_Date_To            SMALLDATETIME
+
+)
+AS
+BEGIN
+
+
+SET NOCOUNT ON;
+
+   --DATE RANGE Setup
+   -------------------
+  DECLARE   @pOrder_Date_From           SMALLDATETIME,
+            @pOrder_Date_To             SMALLDATETIME,
+            @pOrder_Date_From_Conv           SMALLDATETIME=NULL,
+            @pOrder_Date_To_Conv             SMALLDATETIME=NULL
+
+    SET @pOrder_Date_From=@Order_Date_From
+    SET @pOrder_Date_To=@Order_Date_To
+
+	IF isDate(@pOrder_Date_From) = 1
+	 BEGIN
+	  SET @pOrder_Date_From_Conv = CAST(@pOrder_Date_From as smalldatetime)
+	 END
+
+	IF isDate(@pOrder_Date_To) = 1
+	 BEGIN
+	  SET @pOrder_Date_To_Conv = CAST(@pOrder_Date_To as smalldatetime)
+	 END
+
+
+	---Final SELECT
+	-------------
+
+
+SELECT
+	OD.IM_PO_Number as imPONumber,
+	OD.Account_Number as accountNumber,
+	OD.Order_Date as orderDate,
+	OD.Order_Line as orderLine,
+	OD.Sales_Branch as salesBranch,
+	-- as dealID,
+	OD.Status as status,
+	SUBD.billingmodel as billingModel ,
+	SUBC.virtualAccountName as accountName,
+	-- as impulseReferenceOrder,
+	OD.IM_PO_Number + 'D' as ingramReferencePO,
+	SUBD.endcustomername as impulesEndUserNameAndID,
+	SUBD.hostedoffer as subscriptionTopLevelPart,
+	SUBD.weborderid as webOrderID,
+	OD.SubscriptionDetail_ID as subscriptionID ,
+	SUBD.endcustomername as endUser ,
+	'' as resellerContactName, -- requested to put blank for now
+	'' as resellerContactPhone, -- requested to put blank for now
+	'' as resellerEmail, -- requested to put blank for now
+	SUBD.ponumber as resellerPO,
+	SUBD.adjustedmrc as mrcAmount ,
+	SUBD.initialterm as initialTerm  ,
+	SUBC.startDate as subscriptionStartDate  ,
+	SUBD.renewaldate as renewalDate  ,
+	SUBD.autorenterm as autoRenewalTerm  ,
+	0 as totalContractValue , -- to do; enable below and select the total contract value
+	--SUM(SUBD.billingamount) as totalContractValue  ,
+	RIVT.Certification as certification  ,
+	DAP.DISTI_ASSIGNED as dapAssignment,
+	SUBD.daystorenewal as daysToRenewal  ,
+	SUBC.suite_suiteName as suite ,
+	SUBC.smartAccountName as smartAccountName ,
+	SUBC.virtualAccountId as virtualAccountId ,
+	SUBC.commerceSkus_custSuiteName as skuName ,
+	SUBC.commerceSkus_healthMessage as healthMessage ,
+	SUBC.suite_purchasedEntitlements as purchasedEntitlements ,
+	SUBC.suite_growthAllowance as growthAllowance  ,
+	SUBC.suite_totalEntitlements as totalEntitlement ,
+	SUBC.suite_totalConsumption as totalConsumption ,
+	SUBC.suite_calculationMethod as consumptionCalculationMethod ,
+	SUBC.commerceSkus_commerceSkuDescription as commerceSkuDescription ,
+	SUBD.totaldiscount as discounts,
+	SUBD.unitnetprice as unitNetPrice,
+	SUBD.extendednetprice as extendedNetPrice,
+	SUBD.ordersubmissiondate as orderSubmissionDate
+	FROM  [CustomerLifeCycle].clc.Tab_Clc_Orders O WITH(NOLOCK)
+  INNER JOIN Cisco.Tab_Clc_Order_Details OD  WITH(NOLOCK) ON O.IM_PO_Number=OD.IM_PO_Number AND O.Account_Number = OD.Account_Number  AND O.Order_Date=OD.Order_Date
+
+  INNER JOIN clc.Tab_Clc_Vendor_Group G WITH(NOLOCK) ON G.PK_CLC_Vendor_Group=@SK_CLC_Vendor_Group --15--OD.SK_CLC_Vendor_Group --TO DO!!!
+  INNER JOIN clc.Tab_Clc_Company C WITH(NOLOCK) ON C.SK_CLC_Company=OD.SK_CLC_Company
+
+  LEFT JOIN Cisco.Tab_Clc_BE_GEO_ID_Account_XRef BEGEO WITH(NOLOCK) ON BEGEO.[Account_Number]=OD.Account_Number
+  LEFT JOIN Cisco.Tab_Clc_DAP_Assignment DAP WITH(NOLOCK) ON BEGEO.BE_GEO_ID = DAP.BE_GEO_ID
+
+  LEFT JOIN  Cisco.Tab_Clc_Subscription_Consumption SUBC WITH(NOLOCK) ON SUBC.subscriptionID=OD.SubscriptionDetail_ID AND SUBC.SK_CLC_Company = OD.SK_CLC_Company-- AND SUBC.SK_CLC_Vendor_Group = OD.SK_CLC_Vendor_Group
+  LEFT JOIN  Cisco.Tab_Clc_Subscription_Details SUBD WITH(NOLOCK) ON SUBD.SubscriptionReferenceID=OD.SubscriptionDetail_ID AND SUBD.SK_CLC_Company = OD.SK_CLC_Company AND SUBD.SK_CLC_Vendor_Group = OD.SK_CLC_Vendor_Group
+
+  LEFT JOIN  Cisco.Tab_Clc_RIVT RIVT WITH(NOLOCK) ON RIVT.Disti_Validated_RAN=OD.Account_Number
+  LEFT JOIN  Cisco.Tab_Clc_RIVT_Specializations  RIVTSPL WITH(NOLOCK) ON RIVTSPL.Account_ID=RIVT.Disti_Validated_RAN
+  LEFT JOIN  Cisco.Tab_Clc_RIVT_Authorizations RIVTAUTH WITH(NOLOCK) ON RIVTAUTH.Account_ID = RIVT.Disti_Validated_RAN
+
+  WHERE C.SK_CLC_Company =@SK_CLC_Company and G.PK_CLC_Vendor_Group=@SK_CLC_Vendor_Group
+  AND O.Order_Date  BETWEEN @pOrder_Date_From_Conv AND @pOrder_Date_To_Conv
+
+/*
+--exec [clc].[USP_CLC_Get_CISCO_Order_Consumption_Data] 18,15, '07-01-2022','07-07-2022'
+
+*/
+	
+	

@@ -3,10 +3,8 @@ package com.ds.ashokit.linkedlist.problems;
 public class MiddleElement {
 
   private static class Node {
-
     int data;
     Node next;
-
     public Node(int data) {
       this.data = data;
     }

@@ -5,10 +5,8 @@ import java.util.LinkedList;
 public class MergeSortedLinkedList {
 
   private static class Node {
-
     int data;
     Node next;
-
     public Node(int data) {
       this.data = data;
     }

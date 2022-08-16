@@ -89,17 +89,17 @@ public class CustomLinkedList {
 //    printLinkedList(h);
 
     //print unique elements of the linked list
-    CustomLinkedList linkedList = new CustomLinkedList();
-    linkedList.add(1);
-    linkedList.add(2);
-    linkedList.add(2);
-    linkedList.add(3);
-    linkedList.add(4);
-    linkedList.add(4);
-    linkedList.add(5);
-    linkedList.add(6);
-    Node h = linkedList.printUniqueElements(linkedList.head);
-    printLinkedList(h);
+//    CustomLinkedList linkedList = new CustomLinkedList();
+//    linkedList.add(1);
+//    linkedList.add(2);
+//    linkedList.add(2);
+//    linkedList.add(3);
+//    linkedList.add(4);
+//    linkedList.add(4);
+//    linkedList.add(5);
+//    linkedList.add(6);
+//    Node h = linkedList.printUniqueElements(linkedList.head);
+//    printLinkedList(h);
   }
 
   private Node printUniqueElements(Node h) {
